@@ -90,7 +90,7 @@ const About = () => {
                 I have developed real-world projects including an automated resume
                 screening system using NLP, brain tumor detection with YOLOv8
                 (achieving mAP@0.5 {'>'}0.90), and a Generative AI-based personal
-                assistant. I'm proficient in cloud technologies (AWS) and DevOps
+                assistant. I&apos;m proficient in cloud technologies (AWS) and DevOps
                 tools (Docker, Kubernetes) for deploying production-ready ML models.
                 <br /><br />
                 Passionate about applying AI solutions to solve practical problems,
