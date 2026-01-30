@@ -69,7 +69,9 @@ npm run build
 npm start
 ```
 
-## 🌐 Deploy
+## 🌐 Live Deployment
+
+**View the live portfolio:** [https://praveenkumarportfolio.vercel.app](https://praveenkumarportfolio.vercel.app)
 
 This portfolio is deployed on Vercel. You can deploy your own version:
 
@@ -87,4 +89,4 @@ This project is open source and available under the MIT License.
 
 ---
 
-Made with ❤️ by Praveen Kumar
+Build by Praveen Kumar
