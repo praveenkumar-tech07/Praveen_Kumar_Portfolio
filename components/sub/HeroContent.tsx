@@ -36,7 +36,7 @@ const HeroContent = () => {
                   variants={slideInFromLeft(0.5)}
                   className="flex flex-col gap-3 mt-6 md:text-5xl text-4xl font-bold text-white max-w-[650px]"
                 >
-                  <span className="text-gray-400">Hi, I'm</span>
+                  <span className="text-gray-400">Hi, I&apos;m</span>
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-pink-500 to-cyan-500 text-5xl md:text-6xl font-black">
                     Praveen Kumar
                   </span>
