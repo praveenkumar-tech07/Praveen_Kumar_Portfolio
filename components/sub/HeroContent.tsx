@@ -33,7 +33,6 @@ const HeroContent = () => {
                   ref={ref}
                   initial="hidden"
                   animate={inView ? "visible" : "hidden"}
-                  variants={slideInFromLeft(0.5)}
                   className="flex flex-col gap-3 mt-6 md:text-5xl text-4xl font-bold text-white max-w-[650px]"
                 >
                   <span className="text-gray-400">Hi, I&apos;m</span>
