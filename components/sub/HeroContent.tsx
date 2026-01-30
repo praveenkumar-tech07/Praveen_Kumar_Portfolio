@@ -28,10 +28,10 @@ const HeroContent = () => {
 
             {/* MAIN HEADING */}
             <div className="flex flex-col gap-3 mt-6 md:text-5xl text-4xl font-bold text-white max-w-[650px]">
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-pink-500 to-cyan-500 text-5xl md:text-6xl font-black">
+              <span className="text-5xl md:text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-pink-500 to-cyan-500" style={{ WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
                 Hi, I&apos;m Praveen Kumar
               </span>
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-2xl md:text-3xl font-semibold">
+              <span className="text-2xl md:text-3xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500" style={{ WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
                 AI/ML Engineer
               </span>
               <span className="text-xl md:text-2xl font-semibold text-gray-300 mt-2">
