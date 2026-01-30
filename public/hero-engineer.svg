@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0718"/>
+      <stop offset="100%" stop-color="#140b2a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="800" height="800" rx="48" fill="url(#bg)"/>
+  <circle cx="560" cy="240" r="180" fill="url(#glow)"/>
+
+  <!-- Floating UI rings -->
+  <g opacity="0.4" stroke="url(#accent)" stroke-width="2">
+    <circle cx="580" cy="220" r="120" fill="none" stroke-dasharray="10 8"/>
+    <circle cx="580" cy="220" r="90" fill="none" stroke-dasharray="6 10"/>
+  </g>
+
+  <!-- Desk / laptop -->
+  <rect x="160" y="560" width="480" height="28" rx="14" fill="#1f1140"/>
+  <rect x="260" y="520" width="280" height="50" rx="12" fill="#20123f" stroke="url(#accent)" stroke-width="2"/>
+  <rect x="290" y="535" width="220" height="14" rx="7" fill="#06b6d4" opacity="0.6"/>
+
+  <!-- Head -->
+  <circle cx="400" cy="280" r="88" fill="#f7d9c4"/>
+  <!-- Hair -->
+  <path d="M320 270c10-70 150-80 170 0 8 30 2 60-8 85-18-18-52-28-78-28-35 0-64 10-84 26-12-30-15-58 0-83z" fill="#1b122c"/>
+  <path d="M330 265c20-42 115-50 140 0" stroke="#2a1b45" stroke-width="12" stroke-linecap="round"/>
+
+  <!-- Face details -->
+  <circle cx="370" cy="290" r="8" fill="#1b122c"/>
+  <circle cx="430" cy="290" r="8" fill="#1b122c"/>
+  <path d="M375 330c18 14 42 14 60 0" stroke="#d4a996" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Neck -->
+  <rect x="372" y="356" width="56" height="40" rx="18" fill="#f2cdb7"/>
+
+  <!-- Suit -->
+  <path d="M300 420c30-40 70-60 100-60h0c30 0 70 20 100 60l40 160H260l40-160z" fill="#20123f"/>
+  <path d="M400 360l35 40-35 30-35-30 35-40z" fill="#111827"/>
+  <path d="M365 400l35 30 35-30 35 180H330l35-180z" fill="#1b132f"/>
+
+  <!-- Tie -->
+  <path d="M392 402l16-10 16 10-10 18 8 84h-28l8-84-10-18z" fill="#06b6d4"/>
+
+  <!-- Engineer badge -->
+  <rect x="520" y="420" width="70" height="32" rx="8" fill="#120a20" stroke="url(#accent)" stroke-width="2"/>
+  <rect x="528" y="430" width="54" height="12" rx="6" fill="#a855f7" opacity="0.7"/>
+
+  <!-- Floating code panel -->
+  <rect x="520" y="300" width="160" height="90" rx="12" fill="#110a22" stroke="url(#accent)" stroke-width="2" opacity="0.9"/>
+  <rect x="535" y="318" width="120" height="8" rx="4" fill="#22d3ee" opacity="0.7"/>
+  <rect x="535" y="336" width="90" height="8" rx="4" fill="#a855f7" opacity="0.7"/>
+  <rect x="535" y="354" width="110" height="8" rx="4" fill="#22d3ee" opacity="0.5"/>
+
+  <!-- Glow strokes -->
+  <path d="M190 240c30-60 90-90 140-100" stroke="#06b6d4" stroke-width="2" opacity="0.35"/>
+  <path d="M610 520c-40 40-90 60-150 70" stroke="#a855f7" stroke-width="2" opacity="0.35"/>
+</svg>
