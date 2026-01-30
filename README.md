@@ -71,7 +71,7 @@ npm start
 
 ## 🌐 Live Deployment
 
-**View the live portfolio:** [https://praveenkumarportfolio.vercel.app](https://praveenkumarportfolio.vercel.app)
+**View the live portfolio:** [https://praveenkumarportfolioai.vercel.app](https://praveenkumarportfolioai.vercel.app)
 
 This portfolio is deployed on Vercel. You can deploy your own version:
 
