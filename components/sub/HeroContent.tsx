@@ -27,27 +27,17 @@ const HeroContent = () => {
           
 
             {/* MAIN HEADING */}
-            <InView triggerOnce={false}>
-              {({ inView, ref }) => (
-                <motion.div
-                  ref={ref}
-                  initial="hidden"
-                  animate={inView ? "visible" : "hidden"}
-                  className="flex flex-col gap-3 mt-6 md:text-5xl text-4xl font-bold text-white max-w-[650px]"
-                >
-                  <span className="text-gray-400">Hi, I&apos;m</span>
-                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-pink-500 to-cyan-500 text-5xl md:text-6xl font-black">
-                    Praveen Kumar
-                  </span>
-                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-2xl md:text-3xl font-semibold">
-                    AI/ML Engineer
-                  </span>
-                  <span className="text-xl md:text-2xl font-semibold text-gray-300 mt-2">
-                    Building intelligent systems for real-world impact
-                  </span>
-                </motion.div>
-              )}
-            </InView>
+            <div className="flex flex-col gap-3 mt-6 md:text-5xl text-4xl font-bold text-white max-w-[650px]">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-pink-500 to-cyan-500 text-5xl md:text-6xl font-black">
+                Hi, I&apos;m Praveen Kumar
+              </span>
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-2xl md:text-3xl font-semibold">
+                AI/ML Engineer
+              </span>
+              <span className="text-xl md:text-2xl font-semibold text-gray-300 mt-2">
+                Building intelligent systems for real-world impact
+              </span>
+            </div>
 
             {/* DESCRIPTION */}
             <InView triggerOnce={false}>
